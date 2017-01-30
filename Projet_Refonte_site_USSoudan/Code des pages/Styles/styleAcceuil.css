@@ -1,0 +1,185 @@
+/*BODY*/
+body
+{
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	color:black;
+	background-color: #87CEEB;
+	width: 75%;
+	margin: auto;
+}
+/*FIN BODY*/
+
+/* DEBUT HEADER : bloc générale d'entête*/
+header
+{
+	width: 100%;
+	border: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.head
+{
+	display: flex;
+	background-image: url(../HTML/images/fond_foot.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15px;
+}
+
+.img
+{
+	width: 15%;
+	display: flex;
+	justify-content: center;
+}
+
+.logoUSS
+{
+	width: 80%;
+	margin: auto;
+}
+
+.titre_entete
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.titre_entete li
+{
+	font-size: 35px;
+	color: #9C0000;
+}
+
+.titre_entete span
+{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.menu
+{
+	display: flex;
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+.menu li
+{
+	border: 2px solid #9C0000;
+	border-style: outset;
+	text-align: center;
+	background-color: #FFF;
+	padding: 2px;
+	font-size: 20px;
+}
+
+.menu li:hover
+{
+	background-color: #F33;
+}
+
+.menu a
+{	
+	flex: 1;
+	text-decoration: none;
+	color: #333;
+}
+
+.menu a:hover
+{
+	font-weight: bold;
+	color: black;
+}
+/* FIN HEADER : bloc générale d'entête*/
+
+/* FOOTER */
+
+footer
+{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: #888; 
+	padding: 2px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.foot{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.foot a{
+	text-decoration: none;
+	color: #181818;
+}
+
+.foot a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.foot li
+{
+	flex: 1;
+	text-align: center;
+	border: 1px solid black;
+}
+
+/*FIN FOOTER*/
+
+/* ARTICLE PRINCIPAL ACCUEIL*/
+
+.articleAccueil {
+
+	width: 100%;
+	margin-top: 20px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	border:3px solid black;
+	background-color: #FFDEAD;
+
+}
+
+.articleAccueil h2 {
+
+	text-align: center;
+	font-size: 1.8em;
+	margin: auto;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.articleAccueil h4{
+	color: #383838;
+	text-align: right;
+	margin-right: 15px;
+	font-style: italic;
+}
+
+.articleAccueil p{
+	text-align: justify;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.contenuarticle
+{
+	padding: 20px;
+}
+
+#ptiteIntro
+{
+	font-size: 18px;
+}
